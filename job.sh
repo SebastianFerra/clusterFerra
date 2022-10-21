@@ -10,6 +10,7 @@
 
 
 mpic++ Tarea3Ferra.cpp -std=c++11
-time mpirun log.out
+
+time mpirun a.out
 
 
