@@ -10,11 +10,6 @@
 
 
 mpic++ Tarea3Ferra.cpp -std=c++11
-time mpirun -np 5 log.out
-time mpirun -np 10 log.out
-time mpirun -np 15 log.out
-time mpirun -np 20 log.out
-time mpirun -np 40 log.out
-time mpirun -np 50 log.out
+time mpirun -np 2 log.out
 
 
