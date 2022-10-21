@@ -80,7 +80,7 @@ if (world_rank == 0) {
 }
 printf("Proceso número: %i \n", world_rank);
 
-// get 2 rows from matrix
+
 file.open("matrix.txt");
 
 float *my_matrix;

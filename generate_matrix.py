@@ -12,6 +12,6 @@ def write_matrix(matrix, filename='matrix.txt'):
             for j in range(mat.shape[1]):
                 f.write(str(mat[i,j])+"\n")
         f.write("end")
-ndim = int(input())
+ndim = 2000
 mat = generate_matrix(ndim)
 write_matrix(mat)

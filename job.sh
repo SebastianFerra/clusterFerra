@@ -1,5 +1,16 @@
 #!/bin/sh
-python3 generate_matrix.py
+#SBATCH --partition=full
+
+#SBATCH --job-name=IMT2112
+
+#SBATCH --output=log.out
+
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+
+
 mpic++ Tarea3Ferra.cpp -std=c++11
-read proc
-mpirun -np $proc a.out 
+
+mpirun  a.out 
+
+
