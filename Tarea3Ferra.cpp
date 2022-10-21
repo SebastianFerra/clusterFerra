@@ -91,7 +91,7 @@ file >> ncols;
 
 
 
-int max_iterations = 1000000;
+int max_iterations = 10000;
 
 int localFilas = n / world_size;
 int firstIndex = world_rank*localFilas;
