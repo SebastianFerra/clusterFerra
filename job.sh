@@ -5,11 +5,11 @@
 
 #SBATCH --output=log.out
 
-#SBATCH --ntasks=4
+#SBATCH --ntasks=40
 #SBATCH --cpus-per-task=1
 
 
 mpic++ Tarea3Ferra.cpp -std=c++11
-time mpirun -np 50 log.out
+time mpirun log.out
 
 
